@@ -1,0 +1,58 @@
+header {
+    // .border-red;
+    display: flex;
+    flex-direction: column;
+
+    .login-link {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 40px;
+        margin-top: 15px;
+        text-decoration: none;
+        color: @secondary-grey;
+        -webkit-transition: color .5s;
+        -moz-transition:    color .5s;
+        -ms-transition:     color .5s;
+        -o-transition:      color .5s;
+        transition:         color .5s;
+    }
+
+    .login-link:hover {
+        color: @primary-blue;
+    }
+
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        color: @secondary-grey;
+        font-weight: bold;
+    }
+
+    nav {
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+
+        a {
+            display: flex;
+            width: 150px;
+            justify-content: center;
+            text-decoration: none;
+            letter-spacing: 0.3rem;
+            color: @secondary-grey;
+            -webkit-transition: color .5s;
+            -moz-transition:    color .5s;
+            -ms-transition:     color .5s;
+            -o-transition:      color .5s;
+            transition:         color .5s;
+        }
+        
+        a:hover {
+            color: @primary-blue;
+        }
+    }
+}

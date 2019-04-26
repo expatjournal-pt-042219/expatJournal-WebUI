@@ -148,7 +148,8 @@ body {
   width: 100%;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  font-family: 'Lobster Two', cursive;
 }
 h2 {
   font-size: 3.2rem;
@@ -159,4 +160,57 @@ h3 {
 p {
   line-height: 1.5;
   font-size: 1.6rem;
+}
+nav a {
+  font-size: 1.4rem;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+header .login-link {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 40px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #8e8e8e;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+header .login-link:hover {
+  color: #00C3E8;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  color: #8e8e8e;
+  font-weight: bold;
+}
+header nav {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+}
+header nav a {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+  color: #8e8e8e;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+header nav a:hover {
+  color: #00C3E8;
 }
