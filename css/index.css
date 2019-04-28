@@ -152,7 +152,7 @@ h1 {
   font-family: 'Lobster Two', cursive;
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 h3 {
   font-size: 2.5;
@@ -177,11 +177,11 @@ header .login-link {
   margin-top: 15px;
   text-decoration: none;
   color: #8e8e8e;
-  -webkit-transition: color 0.5s;
-  -moz-transition: color 0.5s;
-  -ms-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  transition: color 0.5s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 header .login-link:hover {
   color: #00C3E8;
@@ -205,12 +205,17 @@ header nav a {
   text-decoration: none;
   letter-spacing: 0.3rem;
   color: #8e8e8e;
-  -webkit-transition: color 0.5s;
-  -moz-transition: color 0.5s;
-  -ms-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  transition: color 0.5s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 header nav a:hover {
   color: #00C3E8;
+}
+.jumbo {
+  border: 1px solid green;
+  margin-top: 30px;
+  height: 300px;
 }
