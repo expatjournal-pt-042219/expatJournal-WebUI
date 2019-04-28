@@ -164,6 +164,9 @@ p {
 nav a {
   font-size: 1.4rem;
 }
+button {
+  font-size: 1.6rem;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -214,8 +217,45 @@ header nav a {
 header nav a:hover {
   color: #00C3E8;
 }
-.jumbo {
-  border: 1px solid green;
+.jumbotron {
+  display: flex;
+}
+.jumbotron .left-jumbo {
+  margin-top: 35px;
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dddddd;
+  background-image: linear-gradient(to right, #dddddd, white);
+}
+.jumbotron .left-jumbo h2 {
+  color: #8e8e8e;
+  font-weight: 100;
+}
+.jumbotron .left-jumbo p {
+  color: #8e8e8e;
   margin-top: 30px;
-  height: 300px;
+  margin-bottom: 20px;
+  width: 56.5%;
+}
+.jumbotron .left-jumbo button {
+  width: 58%;
+  border-radius: 15px;
+  background-color: #00C3E8;
+  border: none;
+  height: 40px;
+  color: white;
+  margin-top: 10px;
+}
+.jumbotron .left-jumbo button:hover {
+  box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.jumbotron .chicago {
+  width: 50%;
+  height: 500px;
+  margin-top: 35px;
 }
