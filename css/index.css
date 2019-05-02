@@ -155,7 +155,7 @@ h2 {
   font-size: 3rem;
 }
 h3 {
-  font-size: 2.5;
+  font-size: 2.4rem;
 }
 p {
   line-height: 1.5;
@@ -180,11 +180,11 @@ header .login-link {
   margin-top: 15px;
   text-decoration: none;
   color: #8e8e8e;
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
 }
 header .login-link:hover {
   color: #00C3E8;
@@ -218,12 +218,40 @@ header nav a {
 header nav a:hover {
   color: #00C3E8;
 }
+.footer-content {
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: #8e8e8e;
+  padding: 30px 0;
+}
+.footer-content .footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-content .footer-nav a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.footer-content .footer-nav a:hover {
+  color: #dddddd;
+}
+.footer-content .footer-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
 .jumbotron {
   display: flex;
 }
 .jumbotron .left-jumbo {
   margin-top: 35px;
-  height: 600px;
+  height: 500px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -235,12 +263,14 @@ header nav a:hover {
 .jumbotron .left-jumbo h2 {
   color: #8e8e8e;
   font-weight: 100;
+  line-height: 1.2;
 }
 .jumbotron .left-jumbo p {
   color: #8e8e8e;
   margin-top: 30px;
   margin-bottom: 20px;
   width: 56.5%;
+  line-height: 1.5;
 }
 .jumbotron .left-jumbo button {
   width: 58%;
@@ -253,10 +283,57 @@ header nav a:hover {
 }
 .jumbotron .left-jumbo button:hover {
   box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
   cursor: pointer;
 }
-.jumbotron .chicago {
+.jumbotron .surfing {
   width: 50%;
-  height: 600px;
+  height: 500px;
   margin-top: 35px;
+}
+.about-content {
+  margin: 50px 0px 50px 125px;
+  color: #8e8e8e;
+  width: 40%;
+}
+.about-content .about-h3 {
+  font-weight: bold;
+}
+.about-content .about-p {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.top-photos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.top-photos .tokyo {
+  width: 48%;
+  height: 375px;
+  margin-right: 5px;
+}
+.top-photos .highlands {
+  width: 48%;
+  height: 375px;
+  margin-left: 5px;
+}
+.bottom-photos {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.bottom-photos .atv {
+  width: 48%;
+  height: 375px;
+  margin-right: 5px;
+}
+.bottom-photos .toronto {
+  width: 48%;
+  height: 375px;
+  margin-left: 5px;
 }
