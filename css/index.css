@@ -426,3 +426,46 @@ header nav a:hover {
 .content {
   display: none;
 }
+.dropdown {
+  display: none;
+}
+@media (max-width: 500px) {
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .dropdown .dropdown-button {
+    padding: 15px;
+    font-size: 2rem;
+    color: #00C3E8;
+    font-weight: bold;
+  }
+  .dropdown .dropdown-button:hover {
+    color: #d582ff;
+  }
+  .dropdown .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .dropdown .dropdown-link {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: #00C3E8;
+  }
+  .dropdown .dropdown-link:hover {
+    color: white;
+    background-color: #d582ff;
+  }
+  .dropdown .dropdown-hidden {
+    display: none;
+  }
+}
