@@ -208,6 +208,11 @@ header nav {
   margin-top: 25px;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  header nav {
+    display: none;
+  }
+}
 header nav a {
   display: flex;
   width: 150px;

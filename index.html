@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <script src="javascript/eventListeners.js" async></script>
+    <script src="javascript/dropdown.js" async></script>
 </head>
 
 <body>
@@ -18,9 +19,18 @@
             <h1>ex</h1>
             <nav>
                 <a href="#">HOME</a>
-                <a href="#">ABOUT US</a>
+                <a href="about.html">ABOUT US</a>
                 <a href="#">EXPLORE</a>
             </nav>
+            <div class="dropdown">
+                <div class="dropdown-button">Menu</div>
+                <div class="dropdown-content dropdown-hidden">
+                    <a class='dropdown-link' href='#'>Home</a>
+                    <a class='dropdown-link' href='about.html'>About</a>
+                    <a class='dropdown-link' href='#'>Explore</a>
+                    <a class='dropdown-link' href='#'>Sign in</a>
+                </div>
+            </div>
         </header>
         <div class='jumbotron'>
             <div class='left-jumbo'>
