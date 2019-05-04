@@ -423,3 +423,6 @@ header nav a:hover {
     display: none;
   }
 }
+.content {
+  display: none;
+}
