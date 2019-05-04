@@ -186,6 +186,12 @@ header .login-link {
   -o-transition: color 0.5s;
   transition: color 0.5s;
 }
+@media (max-width: 500px) {
+  header .login-link {
+    display: none;
+    padding-right: 0;
+  }
+}
 header .login-link:hover {
   color: #00C3E8;
 }
@@ -224,10 +230,22 @@ header nav a:hover {
   background-color: #8e8e8e;
   padding: 30px 0;
 }
+@media (max-width: 500px) {
+  .footer-content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 .footer-content .footer-nav {
   display: flex;
   justify-content: space-evenly;
   margin-top: 25px;
+}
+@media (max-width: 500px) {
+  .footer-content .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .footer-content .footer-nav a {
   text-decoration: none;
@@ -237,6 +255,12 @@ header nav a:hover {
   -ms-transition: color 0.5s;
   -o-transition: color 0.5s;
   transition: color 0.5s;
+}
+@media (max-width: 500px) {
+  .footer-content .footer-nav a {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 .footer-content .footer-nav a:hover {
   color: #dddddd;
@@ -262,6 +286,11 @@ header nav a:hover {
   background-color: #dddddd;
   background-image: linear-gradient(to left, #dddddd, white);
 }
+@media (max-width: 500px) {
+  .jumbotron .left-jumbo {
+    width: 100%;
+  }
+}
 .jumbotron .left-jumbo h2 {
   color: #8e8e8e;
   font-weight: 100;
@@ -274,6 +303,12 @@ header nav a:hover {
   width: 56.5%;
   line-height: 1.5;
 }
+@media (max-width: 500px) {
+  .jumbotron .left-jumbo p {
+    width: 74%;
+    margin-top: 45px;
+  }
+}
 .jumbotron .left-jumbo button {
   width: 58%;
   border-radius: 15px;
@@ -282,6 +317,12 @@ header nav a:hover {
   height: 40px;
   color: white;
   margin-top: 10px;
+}
+@media (max-width: 500px) {
+  .jumbotron .left-jumbo button {
+    width: 74%;
+    margin-top: 45px;
+  }
 }
 .jumbotron .left-jumbo button:hover {
   box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
@@ -297,10 +338,22 @@ header nav a:hover {
   height: 500px;
   margin-top: 35px;
 }
+@media (max-width: 500px) {
+  .jumbotron .surfing {
+    display: none;
+  }
+}
 .about-content {
   margin: 50px 0px 50px 125px;
   color: #8e8e8e;
   width: 40%;
+}
+@media (max-width: 500px) {
+  .about-content {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0;
+  }
 }
 .about-content .about-h3 {
   font-weight: bold;
@@ -308,6 +361,12 @@ header nav a:hover {
 .about-content .about-p {
   margin-top: 20px;
   line-height: 1.5;
+}
+@media (max-width: 500px) {
+  .all-photos {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .top-photos {
   display: flex;
@@ -319,10 +378,20 @@ header nav a:hover {
   height: 375px;
   margin-right: 5px;
 }
+@media (max-width: 500px) {
+  .top-photos .tokyo {
+    width: 100%;
+  }
+}
 .top-photos .highlands {
   width: 48%;
   height: 375px;
   margin-left: 5px;
+}
+@media (max-width: 500px) {
+  .top-photos .highlands {
+    display: none;
+  }
 }
 .bottom-photos {
   display: flex;
@@ -334,8 +403,18 @@ header nav a:hover {
   height: 375px;
   margin-right: 5px;
 }
+@media (max-width: 500px) {
+  .bottom-photos .atv {
+    width: 100%;
+  }
+}
 .bottom-photos .toronto {
   width: 48%;
   height: 375px;
   margin-left: 5px;
+}
+@media (max-width: 500px) {
+  .bottom-photos .toronto {
+    display: none;
+  }
 }

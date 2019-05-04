@@ -17,6 +17,11 @@ header {
         -ms-transition:     color .5s;
         -o-transition:      color .5s;
         transition:         color .5s;
+
+        @media (max-width: 500px) {
+            display: none;
+            padding-right: 0;
+        }
     }
     .login-link:hover {
         color: @primary-blue;
