@@ -424,9 +424,49 @@ header nav a:hover {
   }
 }
 .content {
-  border: 1px solid green;
   margin-top: 35px;
-  justify-content: center;
+}
+.content h1 {
+  text-align: center;
+  color: #8e8e8e;
+}
+.content .backend {
+  margin-top: 35px;
+  text-align: center;
+}
+.content .backend h2 {
+  margin-bottom: 20px;
+  color: #00C3E8;
+}
+.content .backend a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #8e8e8e;
+}
+.content .backend a:hover {
+  color: tert-color;
+}
+.content .frontend {
+  margin-top: 35px;
+  text-align: center;
+}
+.content h2 {
+  margin-bottom: 20px;
+  color: #00C3E8;
+}
+.content a {
+  font-size: 1.6rem;
+  color: #8e8e8e;
+  text-decoration: none;
+}
+.content a:hover {
+  color: #d582ff;
+  text-decoration: underline;
+}
+.content .web {
+  margin-top: 35px;
+  text-align: center;
+  margin-bottom: 35px;
 }
 .dropdown {
   display: none;
