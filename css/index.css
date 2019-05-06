@@ -480,10 +480,8 @@ header nav a:hover {
     margin-top: 40px;
   }
   .dropdown .dropdown-button {
-    padding: 15px;
-    font-size: 2rem;
-    color: #00C3E8;
-    font-weight: bold;
+    width: 20%;
+    border-bottom: 2px solid grey;
   }
   .dropdown .dropdown-button:hover {
     color: #d582ff;
