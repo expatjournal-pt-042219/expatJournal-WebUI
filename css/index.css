@@ -424,7 +424,9 @@ header nav a:hover {
   }
 }
 .content {
-  display: none;
+  border: 1px solid green;
+  margin-top: 35px;
+  justify-content: center;
 }
 .dropdown {
   display: none;
