@@ -1,0 +1,154 @@
+.jumbotron {
+   
+    display: flex;
+
+
+    .left-jumbo {
+        margin-top: 35px;
+        height: 500px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: @grey-background;
+        background-image: linear-gradient(to left, @grey-background, white);
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+
+        h2 {
+            color: @secondary-grey;
+            font-weight: 100;
+            line-height: 1.2;
+        }
+
+        p {
+            color: @secondary-grey;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            width: 56.5%;
+            line-height: 1.5;
+
+            @media(max-width: 500px) {
+                width: 74%;
+                margin-top: 45px;
+            }
+        }
+
+        button {
+            width: 58%;
+            border-radius: 15px;
+            background-color: @primary-blue;
+            border: none;
+            height: 40px;
+            color: white;
+            margin-top: 10px;
+
+            @media (max-width: 500px) {
+                width: 74%;
+                margin-top: 45px;
+            }
+        }
+
+        button:hover {
+            box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+            -webkit-transition: color .3s;
+            -moz-transition:    color .3s;
+            -ms-transition:     color .3s;
+            -o-transition:      color .3s;
+            transition:         color .3s;
+            cursor: pointer;
+        }
+    }
+
+    .surfing {
+        width: 50%;
+        height: 500px;
+        margin-top: 35px;
+
+        @media (max-width: 500px) {
+            display: none;
+        }
+    }
+}
+
+.about-content {
+    margin: 50px 0px 50px 125px;
+    color: @secondary-grey;
+    width: 40%;
+
+    @media (max-width: 500px) {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .about-h3 {
+        font-weight: bold;
+    }
+
+    .about-p {
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+}
+
+.all-photos {
+    @media(max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.top-photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    .tokyo {
+        width: 48%;
+        height: 375px;
+        margin-right: 5px;
+
+        @media(max-width: 500px){
+            width: 100%;
+        }
+    }
+
+    .highlands {
+        width: 48%;
+        height: 375px;
+        margin-left: 5px;
+
+        @media(max-width: 500px) {
+            display: none;
+        }
+    }
+}
+
+.bottom-photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    .atv {
+        width: 48%;
+        height: 375px;
+        margin-right: 5px;
+
+        @media(max-width: 500px) {
+            width: 100%;
+        }
+    }
+
+    .toronto {
+        width: 48%;
+        height: 375px;
+        margin-left: 5px;
+
+        @media(max-width: 500px) {
+            display: none;
+        }
+    }
+}

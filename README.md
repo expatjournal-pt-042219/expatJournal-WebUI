@@ -1,2 +1,2 @@
 # expatJournal-WebUI
-An 'About Us' page for the Expat Journal team
+My Marketing Page for Expat Journal
