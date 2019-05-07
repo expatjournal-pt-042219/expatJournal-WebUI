@@ -152,3 +152,24 @@
         }
     }
 }
+
+.cta {
+    .border-red;
+    margin-top: 70px;
+
+    @media(max-width: 500px) {
+        text-align: center;
+        border: none;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: @secondary-grey;
+
+        &:hover {
+            color: @tert-color;
+            cursor: pointer;
+        }
+    }
+}

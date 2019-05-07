@@ -423,6 +423,25 @@ header nav a:hover {
     display: none;
   }
 }
+.cta {
+  border: 1px solid red;
+  margin-top: 70px;
+}
+@media (max-width: 500px) {
+  .cta {
+    text-align: center;
+    border: none;
+  }
+}
+.cta h1 {
+  display: flex;
+  justify-content: center;
+  color: #8e8e8e;
+}
+.cta h1:hover {
+  color: #d582ff;
+  cursor: pointer;
+}
 .content {
   margin-top: 35px;
 }
