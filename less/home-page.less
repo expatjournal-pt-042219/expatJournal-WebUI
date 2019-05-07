@@ -77,7 +77,8 @@
 .about-content {
     margin: 50px 0px 50px 125px;
     color: @secondary-grey;
-    width: 40%;
+    width: 100%;
+    display: flex;
 
     @media (max-width: 500px) {
         width: 100%;
@@ -92,8 +93,20 @@
     .about-p {
         margin-top: 20px;
         line-height: 1.5;
+        width: 40%;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+    .loki {
+        width: 12%;
+        display: flex;
+        height: 150px;
+        margin-left: 200px;
     }
 }
+
+
 
 .all-photos {
     @media(max-width: 500px) {
@@ -154,7 +167,6 @@
 }
 
 .cta {
-    .border-red;
     margin-top: 70px;
 
     @media(max-width: 500px) {

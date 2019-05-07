@@ -351,7 +351,8 @@ header nav a:hover {
 .about-content {
   margin: 50px 0px 50px 125px;
   color: #8e8e8e;
-  width: 40%;
+  width: 100%;
+  display: flex;
 }
 @media (max-width: 500px) {
   .about-content {
@@ -366,6 +367,15 @@ header nav a:hover {
 .about-content .about-p {
   margin-top: 20px;
   line-height: 1.5;
+  width: 40%;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.about-content .loki {
+  width: 12%;
+  display: flex;
+  height: 150px;
+  margin-left: 200px;
 }
 @media (max-width: 500px) {
   .all-photos {
@@ -424,7 +434,6 @@ header nav a:hover {
   }
 }
 .cta {
-  border: 1px solid red;
   margin-top: 70px;
 }
 @media (max-width: 500px) {
